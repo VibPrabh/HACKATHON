@@ -1,0 +1,4 @@
+*.csv
+*.zip
+/ML_training/runs/classify
+/llm_chat/secrets

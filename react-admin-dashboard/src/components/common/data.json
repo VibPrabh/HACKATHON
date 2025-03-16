@@ -1,0 +1,122 @@
+{
+  "Name": "Michael Hayes",
+  "Age": 65,
+  "Sex": "Male",
+  "DOB": "January 1 1960",
+  "Stage": "Stage 3 Parkinson's Disease (PD)",
+  "Subtype": "Mixed type (Tremor-Dominant + PIGD)",
+  "Key Symptoms": [
+    "Tremors (in both hands and both legs)",
+    "Rigidity",
+    "Bradykinesia",
+    "Cognitive decline"
+  ],
+  "Medications": [
+    {"medication": "Levodopa/Carbidopa", "dose": "300mg", "frequency": "3x/day", "start_date": "March 5 2013", "last_update": "March 15 2025"},
+    {"medication": "Ropinirole", "dose": "2mg", "frequency": "1x/day", "start_date": "May 15 2016", "last_update": "March 15 2025"},
+    {"medication": "Donepezil", "dose": "10mg", "frequency": "1x/day", "start_date": "April 15 2024", "last_update": "March 15 2025"},
+    {"medication": "Entacapone", "dose": "200mg", "frequency": "3x/day", "start_date": "August 10 2019", "last_update": "March 15 2025"},
+    {"medication": "Amitriptyline", "dose": "25mg", "frequency": "1x/day (PM)", "start_date": "January 10 2022", "last_update": "March 15 2025"}
+  ],
+  "MDS_UPDRS_scores_over_time": [
+    {"MDS_UPDRS": "1", "confidence": 0.95, "date": "March 15 2013"},
+    {"MDS_UPDRS": "1", "confidence": 0.94, "date": "January 20 2015"},
+    {"MDS_UPDRS": "2", "confidence": 0.92, "date": "June 10 2017"},
+    {"MDS_UPDRS": "2", "confidence": 0.90, "date": "September 18 2018"},
+    {"MDS_UPDRS": "3", "confidence": 0.87, "date": "March 15 2020"},
+    {"MDS_UPDRS": "3", "confidence": 0.85, "date": "May 20 2021"},
+    {"MDS_UPDRS": "2", "confidence": 0.88, "date": "October 1 2022"},
+    {"MDS_UPDRS": "2", "confidence": 0.90, "date": "January 25 2023"},
+    {"MDS_UPDRS": "2", "confidence": 0.92, "date": "June 5 2024"},
+    {"MDS_UPDRS": "3", "confidence": 0.93, "date": "December 15 2024"},
+    {"MDS_UPDRS": "3", "confidence": 0.96, "date": "January 20 2025"},
+    {"MDS_UPDRS": "3", "confidence": 0.97, "date": "March 15 2025"}
+  ],
+  "Cognitive_Assessments": [
+    {"test": "MMSE", "score": 26, "confidence": 0.90, "date": "March 10 2014"},
+    {"test": "MoCA", "score": 22, "confidence": 0.88, "date": "June 10 2016"},
+    {"test": "CDT", "score": 6, "confidence": 0.92, "date": "November 8 2017"},
+    {"test": "MoCA", "score": 24, "confidence": 0.92, "date": "February 25 2020"},
+    {"test": "MMSE", "score": 23, "confidence": 0.90, "date": "July 30 2022"},
+    {"test": "MoCA", "score": 21, "confidence": 0.88, "date": "January 10 2024"},
+    {"test": "CDT", "score": 5, "confidence": 0.89, "date": "July 5 2024"},
+    {"test": "MoCA", "score": 24, "confidence": 0.92, "date": "March 15 2025"}
+  ],
+  "Speech_Assessment": [
+    {"metric": "voice_volume", "value": 52, "unit": "dB", "confidence": 0.92, "date": "March 15 2014"},
+    {"metric": "speech_clarity", "value": "moderately impaired", "confidence": 0.88, "date": "March 15 2016"},
+    {"metric": "voice_volume", "value": 50, "unit": "dB", "confidence": 0.90, "date": "August 10 2018"},
+    {"metric": "speech_clarity", "value": "severely impaired", "confidence": 0.86, "date": "June 1 2020"},
+    {"metric": "voice_volume", "value": 54, "unit": "dB", "confidence": 0.93, "date": "October 20 2023"},
+    {"metric": "speech_clarity", "value": "mildly impaired", "confidence": 0.90, "date": "March 15 2025"}
+  ],
+  "Motor_Function": [
+    {"metric": "gait_speed", "value": 0.35, "unit": "m/s", "confidence": 0.87, "date": "March 10 2014"},
+    {"metric": "postural_instability", "value": "mild", "confidence": 0.90, "date": "August 12 2016"},
+    {"metric": "tremor_severity", "value": "moderate", "confidence": 0.91, "date": "November 5 2018"},
+    {"metric": "gait_speed", "value": 0.30, "unit": "m/s", "confidence": 0.88, "date": "May 1 2020"},
+    {"metric": "postural_instability", "value": "moderate", "confidence": 0.92, "date": "January 17 2021"},
+    {"metric": "tremor_severity", "value": "severe", "confidence": 0.89, "date": "April 22 2022"},
+    {"metric": "gait_speed", "value": 0.42, "unit": "m/s", "confidence": 0.90, "date": "August 15 2023"},
+    {"metric": "postural_instability", "value": "mild", "confidence": 0.92, "date": "March 15 2025"}
+  ],
+  "ADL_Scores": [
+    {"metric": "walking", "score": 70, "confidence": 0.90, "date": "March 15 2014"},
+    {"metric": "eating", "score": 80, "confidence": 0.92, "date": "March 25 2015"},
+    {"metric": "dressing", "score": 75, "confidence": 0.91, "date": "April 5 2016"},
+    {"metric": "bathing", "score": 85, "confidence": 0.94, "date": "June 1 2017"},
+    {"metric": "walking", "score": 60, "confidence": 0.88, "date": "January 10 2020"},
+    {"metric": "eating", "score": 75, "confidence": 0.89, "date": "February 15 2022"},
+    {"metric": "dressing", "score": 72, "confidence": 0.90, "date": "October 20 2023"},
+    {"metric": "bathing", "score": 85, "confidence": 0.95, "date": "March 15 2025"}
+  ],
+  "Cognitive_Fluctuations": [
+    {"time_of_day": "Morning", "cognitive_status": "alert, mild memory loss", "confidence": 0.93, "date": "June 20 2015"},
+    {"time_of_day": "Evening", "cognitive_status": "more confused, moderate memory loss", "confidence": 0.85, "date": "August 25 2017"},
+    {"time_of_day": "Morning", "cognitive_status": "alert, mild memory loss", "confidence": 0.95, "date": "March 10 2022"},
+    {"time_of_day": "Evening", "cognitive_status": "mild confusion, moderate memory loss", "confidence": 0.90, "date": "January 20 2023"},
+    {"time_of_day": "Morning", "cognitive_status": "alert, mild memory loss", "confidence": 0.95, "date": "March 15 2025"},
+    {"time_of_day": "Evening", "cognitive_status": "mild confusion, moderate memory loss", "confidence": 0.90, "date": "March 15 2025"}
+  ],
+  "Sleep_Patterns": [
+    {"metric": "sleep_duration", "value": 7.5, "unit": "hours", "confidence": 0.90, "date": "March 15 2014"},
+    {"metric": "sleep_quality", "value": "moderate disturbance", "confidence": 0.87, "date": "June 1 2016"},
+    {"metric": "sleep_duration", "value": 7, "unit": "hours", "confidence": 0.85, "date": "January 25 2019"},
+    {"metric": "sleep_quality", "value": "severe disturbance", "confidence": 0.83, "date": "September 10 2021"},
+    {"metric": "sleep_duration", "value": 8, "unit": "hours", "confidence": 0.92, "date": "January 10 2023"},
+    {"metric": "sleep_quality", "value": "mild disturbance", "confidence": 0.90, "date": "March 15 2025"}
+  ],
+  "Physical_Therapy_Progress": [
+    {"metric": "range_of_motion", "value": "90° (right shoulder)", "confidence": 0.92, "date": "July 10 2016"},
+    {"metric": "gait_balance", "value": "improved", "confidence": 0.88, "date": "December 5 2018"},
+    {"metric": "strength", "value": "moderate improvement", "confidence": 0.89, "date": "May 15 2020"},
+    {"metric": "range_of_motion", "value": "95° (right shoulder)", "confidence": 0.93, "date": "April 22 2023"},
+    {"metric": "gait_balance", "value": "significantly improved", "confidence": 0.92, "date": "March 15 2025"},
+    {"metric": "strength", "value": "significant improvement", "confidence": 0.91, "date": "March 15 2025"}
+  ],
+  "Additional_Health_Conditions": [
+    {"condition": "Hypertension", "status": "managed", "medications": ["Lisinopril"], "date_diagnosed": "2015"},
+    {"condition": "Hyperlipidemia", "status": "managed", "medications": ["Atorvastatin"], "date_diagnosed": "2018"}
+  ],
+  "Social_History": {
+    "living_situation": "Lives with spouse",
+    "support_system": "Spouse and adult children, receives assistance with daily activities"
+  },
+  "Past_Medical_History": [
+    {"condition": "Type 2 Diabetes", "status": "well-controlled", "medications": ["Metformin"], "date_diagnosed": "2015"},
+    {"condition": "GERD", "status": "managed", "medications": ["Omeprazole"], "date_diagnosed": "2017"}
+  ],
+  "Family_History": {
+    "father": {"condition": "Parkinson's Disease", "status": "deceased at age 70", "age_at_diagnosis": 65},
+    "mother": {"condition": "Hypertension", "status": "living at age 90"},
+    "siblings": [
+      {"sibling": "Older Brother", "condition": "CVD", "status": "living"},
+      {"sibling": "Younger Sister", "condition": "No major conditions", "status": "living"}
+    ]
+  },
+  "Doctor_Visits": [
+    {"visit_date": "March 1 2025", "specialist": "Neurologist", "reason_for_visit": "Routine check-up", "notes": "Stable condition, continue current treatment"},
+    {"visit_date": "September 10 2024", "specialist": "Physiotherapist", "reason_for_visit": "Physical therapy session", "notes": "Improvement in gait and balance"},
+    {"visit_date": "June 15 2023", "specialist": "Speech Therapist", "reason_for_visit": "Speech assessment", "notes": "Improvement in speech clarity"}
+  ]
+}
