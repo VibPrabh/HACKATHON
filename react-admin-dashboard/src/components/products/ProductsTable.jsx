@@ -159,9 +159,6 @@ const ProductsTable = ({ productData }) => {
                 Score
               </th>
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
-                Confidence
-              </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-400 uppercase tracking-wider">
                 Date Taken
               </th>
             </tr>
@@ -181,10 +178,20 @@ const ProductsTable = ({ productData }) => {
                   {product.score}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-300">
-                  {product.confidence}
+                  {product.date}
                 </td>
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-300">
-                  {product.date}
+                  
+                <div className="relative">
+                  <input
+                    type="text"
+                    placeholder="Carbidopa / Levodopat Time Taken"
+                    className="bg-gray-700 text-white placeholder-gray-400 rounded-lg pl-20 pr-10 py-2 w-96 min-w-[300px] focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    onChange={handleSearch}
+                    value={searchTerm}
+                  />
+                  <Search className="absolute left-3 top-2.5 text-gray-400" size={18} />
+                </div>
                 </td>
               </motion.tr>
             ))}

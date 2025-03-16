@@ -271,7 +271,7 @@ const DrawingCanvas = ({addNewProduct}) => {
                 date: new Date().toLocaleDateString(),
             }
             addNewProduct(newProduct);
-            alert(`Prediction: ${data.classification}\nConfidence: ${data.confidence}`);
+            alert(`Prediction: ${data.classification}`);
           } else if (data.error) {
             alert(`Error: ${data.error}`);
           }
