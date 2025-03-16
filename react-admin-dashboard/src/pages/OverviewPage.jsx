@@ -39,7 +39,7 @@ const StatCard_Clinic = ({ name, icon: Icon, color }) => {
 					<Icon size={20} className='mr-2' style={{ color }} />
 					{name}
 				</span>
-				<p className='mt-1 text-3xl font-semibold text-gray-100'>Georgetown MedStar</p>
+				<p className='mt-1 text-3xl font-semibold text-gray-100'>MedStar Georgetown</p>
 				<a href="https://www.medstarhealth.org/locations/medstar-georgetown-university-hospital" target="_blank" rel="noopener noreferrer">
 					Click to visit Clinic Website
 				</a>
