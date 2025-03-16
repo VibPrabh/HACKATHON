@@ -18,7 +18,7 @@ const SalesOverviewChart = () => {
 			animate={{ opacity: 1, y: 0 }}
 			transition={{ delay: 0.2 }}
 		>
-			<h2 className='text-lg font-medium mb-4 text-gray-100'>UPDRS Over Time</h2>
+			<h2 className='text-lg font-medium mb-4 text-gray-100'>Micrographia Severity (UPDRS-Motor)</h2>
 
 			<div className='h-80'>
 				<ResponsiveContainer width={"100%"} height={"100%"}>

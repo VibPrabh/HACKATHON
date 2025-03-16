@@ -131,7 +131,7 @@ const ProductsPage = () => {
 					transition={{ duration: 1 }}
 				>
 					<StatCard name='Total tests taken' icon={Package} value={55} color='#6366F1' />
-					<StatCard name='Most recent score' icon={TrendingUp} value={89} color='#10B981' />
+					<StatCard name='Most recent score' icon={TrendingUp} value={4} color='#10B981' />
 					<StatCard_Upload name='Upload Spiral Test' icon={Upload} value={data["Stage"]} color='#6366F1' />
 				</motion.div>
 				<DrawingCanvas addNewProduct={addNewProduct}/>
