@@ -1,3 +1,27 @@
-/.DS_Store
-/datasets
-*/secret.txt
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+.venv/
+
+# Node / React
+node_modules/
+build/
+dist/
+
+# Model weights & large data
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.npz
+*.npy
+ImageDataTools/runs/
+images/uploaded_by_user/
+
+# OS/editor junk
+.DS_Store
+*.log
