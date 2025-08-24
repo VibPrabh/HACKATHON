@@ -1,5 +1,5 @@
-# TremTrack
-This is our project for the H2AI Hackathon.
+# HandTrak
+This is our project for the Neurovia Hackathon.
 
 To run:
 
